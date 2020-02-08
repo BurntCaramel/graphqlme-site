@@ -1,0 +1,17 @@
+{
+  "name": "graphql.me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @11ty/eleventy --serve --port=4521",
+    "build": "npx @11ty/eleventy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Patrick Smith",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^0.10.0"
+  }
+}

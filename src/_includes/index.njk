@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>GraphQL.me</title>
+    <link rel="stylesheet" href="https://unpkg.com/tailwindcss@1.2.0/dist/tailwind.min.css">
+    <style>
+      main h1 { font-size: 2rem; }
+      main h2 { font-size: 1.5rem; }
+      main h3 { font-weight: bold; }
+      main ol { list-style-type: decimal; }
+      article > * + * { margin-top: 1rem; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <article class="container max-w-2xl mx-auto py-8">
+        {{ content | safe }}
+      </article>
+    </main>
+  </body>
+</html>
